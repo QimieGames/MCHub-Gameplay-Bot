@@ -1,0 +1,27 @@
+{
+  "name": "mchub-gameplay-bot",
+  "version": "1.0.0",
+  "description": "A Simple Discord Bot That Alerts You About Events That Are Happening On MCHub In Real-Time",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/QimieGames/MCHub-Gameplay-Bot.git"
+  },
+  "author": "QimieGames",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/QimieGames/MCHub-Gameplay-Bot/issues"
+  },
+  "homepage": "https://github.com/QimieGames/MCHub-Gameplay-Bot#readme",
+  "dependencies": {
+    "@discordjs/builders": "^1.3.0",
+    "@discordjs/rest": "^1.3.0",
+    "discord-api-types": "^0.37.14",
+    "discord.js": "^14.6.0",
+    "dotenv": "^16.0.3",
+    "mineflayer": "github:QimieGames/mineflayer"
+  }
+}
